@@ -5,7 +5,7 @@
             <core:Icon src="sap-icon://hello-world" size="8rem" class="sapUiMediumMargin"/>
         </content>
         <beginButton>
-            <Button text="{i18n>dialogCloseButton}" press=".onCloseDialog"/>
+            <Button text="{i18n>dialogCloseButtonText}" press=".onCloseDialog"/>
         </beginButton>
     </Dialog>
 </core:FragmentDefinition>
