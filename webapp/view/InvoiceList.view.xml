@@ -2,10 +2,14 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
     <List id="invoiceList" headerText="{i18n>invoiceListTitle}" class="saUiResponsiveMargin" width="auto" items="{
-            path: 'invoice>/Invoices', sorter:{path:'ShipperName', group: true}
-        }">
+            path: 'invoice>/Invoices',
+            sorter: {
+                path: 'ShipperName',
+                group: true
+                }
+            }">
         <headerToolbar>
-            <Toolbar >
+            <Toolbar>
                 <Title text="{i18n>invoiceListTitle}"/>
                 <ToolbarSpacer/>
                 <SearchField width="50%" search=".onFilterInvoices"/>

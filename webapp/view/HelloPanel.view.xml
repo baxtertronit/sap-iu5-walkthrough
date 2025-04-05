@@ -5,7 +5,7 @@
         <content>
             <Button id="helloDialogButton" icon="sap-icon://world" text="{i18n>openDialogButtonText}" press=".onOpenDialog" class="sapUiSmallMarginEnd"/>
             <Button text="{i18n>showHelloButtonText}" press=".onShowHello" class="myCustomButton"/>
-            <Input value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"/>
+            <Input value="{/recipient/name}" description="Hello {/recipient/name }" valueLiveUpdate="true" width="60%"/>
             <FormattedText htmlText="Hello {/recipient/name}" class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
         </content>
     </Panel>
