@@ -21,6 +21,7 @@ sap.ui.define(
           .attachPatternMatched(this._onObjectMatched, this);
       },
       _onObjectMatched: function (oEvent) {
+        this.byId("rating").reset();
         this.getView().bindElement({
           path:
             "/" +

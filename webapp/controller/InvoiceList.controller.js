@@ -45,7 +45,7 @@ sap.ui.define(
         const oRouter = UIComponent.getRouterFor(this);
         oRouter.navTo("detail", {
           invoicePath: window.encodeURIComponent(
-            oItem.getBindingContext("invoice").getPath().substring(1)
+            oItem.getBindingContext("invoice").getPath().substr(1)
           ),
         });
       },

@@ -14,7 +14,7 @@
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "tags": {
-      "keywords": ["{{<keyword1>}}", "{{<keyword2>}}"]
+      "keywords": []
     },
     "dataSources": {
       "invoiceRemote": {
@@ -75,10 +75,6 @@
       },
       "invoice": {
         "dataSource": "invoiceRemote"
-      },
-      "": {
-        "dataSource": "<dataSourceAlias>",
-        "settings": {}
       }
     },
     "rootView": {
